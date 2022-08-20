@@ -1,6 +1,6 @@
 from heapq import merge
 
-
+# método MergeSort
 def mergeSort(lista, inicio=0, fim=None):
     if fim is None:
         fim = len(lista)
@@ -10,6 +10,7 @@ def mergeSort(lista, inicio=0, fim=None):
         mergeSort(lista, meio, fim)
         merge(lista, inicio, meio. fim)
 
+# merge
 def merge(lista, inicio, meio, fim):
     left = lista[inicio:meio]
     right = lista[meio:fim]
