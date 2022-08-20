@@ -25,5 +25,5 @@ def merge(lista, inicio, meio, fim):
             lista[k] = left[topLeft]
             topLeft = topLeft + 1
         else:
-                lista[k] = right[topRight]
-                topRight = topRight + 1
+            lista[k] = right[topRight]
+            topRight = topRight + 1
