@@ -1,3 +1,4 @@
+#quicksort
 def quickSort(lista, inicio=0, fim=None):
     if fim is None:
         fim = len(lista) - 1
@@ -6,6 +7,7 @@ def quickSort(lista, inicio=0, fim=None):
         quickSort(lista, inicio, p - 1)
         quickSort(lista, p + 1, fim)
 
+#partition
 def partition(lista, inicio, fim):
         pivot = lista[fim]
         i = inicio
